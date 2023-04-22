@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Berkshire+Swash&family=Roboto+Condensed:ital,wght@0,300;0,400;1,300&display=swap');
+
+/* Reset inicial */
+* {
+  box-sizing: border-box;
+  font-family: 'Roboto Condensed', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* Início cabeçalho */
+.cabecalho {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  padding: 5px;
+}
+
+.cabecalho a {
+  color: black;
+  text-decoration: none;
+}
+
+.cabecalho nav ul {
+  display: flex;
+  list-style: none;
+}
+
+.cabecalho nav ul a {
+  border-bottom: 1px solid black;
+  text-decoration: none;
+  margin: 5px;
+}
+
+.cabecalho nav ul a li {
+  padding: 5px 10px;
+}
+/* Fim cabeçalho */
+
+/* Início seção 01 */
+.s1 {
+  margin: 1px 0;
+  padding: 1px;
+}
+
+.s1 img {
+  display: block;
+  height: 600px;
+  margin: 0 auto;
+  width: 100%;
+}
+
+.s1 a {
+  text-decoration: none;
+}
+
+.button-promo {
+  background-color: rgba(0, 0, 0, .7);
+  border-radius: 5px;
+  color: white;
+  display: block;
+  font-family: 'Berkshire Swash', cursive;
+  font-size: 30px;
+  margin: 0 auto;
+  padding: 10px 0;
+  position: relative;
+  text-align: center;
+  top: -80px;
+  width: 90%;
+}
+
+.s1 aside {
+  margin: 50px 0;
+  width: 100%;
+}
+
+.s1 aside h1 {
+  color: firebrick;
+  font-size: 25px;
+  margin: 0 0 50px 0;
+  text-align: center;
+  text-decoration: underline;
+}
+
+.s1 aside img {
+  height: 400px;
+  max-width: 450px;
+}
+/* Fim seção 01 */
+
+/* Início seção 02 */
+.s2 {
+  margin: 1px 0;
+  padding: 1px;
+}
+
+.s2 h1 {
+  margin: 40px 0;
+  text-align: center;
+  text-decoration: underline;
+}
+
+.cardapio-01 {
+  border: 2px solid black;
+  border-radius: 20px 1px;
+  list-style-type: decimal-leading-zero;
+  list-style-position: inside;
+  margin: 10px 5px;
+  padding: 20px;
+}
+
+.cardapio-02 {
+  border: 2px solid black;
+  border-radius: 1px 20px;
+  list-style-type: decimal-leading-zero;
+  list-style-position: inside;
+  margin: 10px 5px;
+  padding: 20px;
+}
+/* Fim seção 02 */
+
+
+
+
+
+
+
+
+/* @media only screen and (min-width: 380px) {
+  .s1 {
+    display: block;
+  }
+  
+  .s1 img {
+    display: block;
+    width: 100%;
+  }
+  
+  .s1 aside {
+    border: 5px solid red;
+    display: block;
+    width: 100%;
+  }
+} */
