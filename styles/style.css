@@ -77,7 +77,7 @@
 .s1 aside h1 {
   color: firebrick;
   font-size: 25px;
-  margin: 0 0 50px 0;
+  margin: 200px 0;
   text-align: center;
   text-decoration: underline;
 }
@@ -91,13 +91,13 @@
 /* Início seção 02 */
 .s2 {
   margin: 1px 0;
-  padding: 1px;
+  padding: 0 10px;
 }
 
 .s2 h1 {
-  margin: 40px 0;
+  font-size: 45px;
+  margin: 100px 0;
   text-align: center;
-  text-decoration: underline;
 }
 
 .cardapio-01 {
@@ -105,8 +105,9 @@
   border-radius: 20px 1px;
   list-style-type: decimal-leading-zero;
   list-style-position: inside;
-  margin: 10px 5px;
+  margin: 10px auto;
   padding: 20px;
+  max-width: 400px;
 }
 
 .cardapio-02 {
@@ -114,17 +115,97 @@
   border-radius: 1px 20px;
   list-style-type: decimal-leading-zero;
   list-style-position: inside;
-  margin: 10px 5px;
+  margin: 10px auto;
   padding: 20px;
+  max-width: 400px;
 }
 /* Fim seção 02 */
 
+/* Início seção 3 */
+.s3 {
+  padding: 1px;
+  text-align: center;
+}
 
+.s3 h1 {
+  font-size: 45px;
+  margin: 100px 0;
+  text-align: center;
+}
 
+.contatos-fone {
+  height: 400px;
+  width: 100%;
+}
 
+.contatos-fone p {
+  font-size: 25px;
+  margin: 10px 0;
+}
 
+.contatos-fone h2 {
+  border: 2px solid black;
+  border-radius: 5px;
+  margin: 0 0 150px 0;
+  padding: 10px;
+}
 
+.localizacao {
+  height: 400px;
+  margin: 0 0 50px 0;
+  width: 100%;
+}
 
+.localizacao h2 {
+  border: 2px solid black;
+  border-radius: 5px;
+  padding: 10px;
+}
+
+.localizacao iframe {
+  border-radius: 5px;
+  display: block;
+  margin: 10px auto;
+  width: 99%;
+}
+/* Fim seção 03 */
+
+/* Início seção 04 */
+.s4 {
+  margin: 300px 0 0 0;
+  padding: 1px;
+  text-align: justify;
+}
+
+.s4 h1 {
+  text-align: center;
+}
+
+.s4 p {
+  margin: 40px 0;
+  padding: 5px;
+}
+/* Fim seção 04 */
+
+/* Início seção 05 */
+.s5 {
+  text-align: center;
+}
+
+.s5 iframe {
+  margin: 50px 0;
+  width: 100%;
+}
+/* Fim seção 05 */
+
+/* Início rodapé */
+footer {
+  background-color: rgba(0, 0, 0, .9);
+  color: white;
+  padding: 50px 10px;
+  text-align: center;
+}
+/* Fim rodapé */
 
 /* @media only screen and (min-width: 380px) {
   .s1 {
