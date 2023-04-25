@@ -54,7 +54,7 @@
   text-decoration: none;
 }
 
-.button-promo {
+.promo-button {
   background-color: rgba(0, 0, 0, .7);
   border-radius: 5px;
   color: white;
@@ -67,6 +67,10 @@
   text-align: center;
   top: -80px;
   width: 90%;
+}
+
+.contact-button {
+  display: none;
 }
 
 .s1 aside {
@@ -207,19 +211,75 @@ footer {
 }
 /* Fim rodapé */
 
-/* @media only screen and (min-width: 380px) {
+@media only screen and (min-width: 850px) {
+  .cabecalho {
+    padding: 20px;
+  }
+  .promo-button {
+    display: none;
+  }
+
   .s1 {
-    display: block;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .s1 picture {
+    width: 49.5%;
   }
   
-  .s1 img {
-    display: block;
-    width: 100%;
+  .s1 picture img {
+    border-radius: 10px;
   }
-  
+
   .s1 aside {
-    border: 5px solid red;
-    display: block;
-    width: 100%;
+    width: 49.5%;
   }
-} */
+
+  .s1 aside h1 {
+    margin: 0;
+  }
+
+  .contact-button {
+    background-color: rgba(0, 0, 0, .7);
+    border-radius: 5px;
+    color: white;
+    display: block;
+    font-family: 'Berkshire Swash', cursive;
+    font-size: 30px;
+    margin: 0 auto;
+    padding: 10px 0;
+    position: relative;
+    text-align: center;
+    top: -80px;
+    width: 90%;
+  }
+
+  .s2 div {
+    display: flex;
+    justify-content: center;
+  }
+
+  .cardapio-01, .cardapio-02 {
+    margin: 10px 20px;
+  }
+
+  .s3 div {
+    display: flex;
+    justify-content: center;
+  }
+
+  .contatos-fone, .localizacao {
+    margin: 0 10px;
+  }
+
+  .s4 {
+    margin: 300px auto 0 auto;
+    max-width: 700px;
+  }
+
+  .s5 {
+    margin: 0 auto;
+    max-width: 700px;
+  }
+}
