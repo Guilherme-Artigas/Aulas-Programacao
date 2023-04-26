@@ -3,7 +3,6 @@
 /* Reset inicial */
 * {
   box-sizing: border-box;
-  font-family: 'Roboto Condensed', sans-serif;
   margin: 0;
   padding: 0;
 }
@@ -12,6 +11,7 @@
 .cabecalho {
   align-items: center;
   display: flex;
+  font-family: 'Roboto Condensed', sans-serif;
   justify-content: space-between;
   padding: 5px;
 }
@@ -43,6 +43,18 @@
   padding: 1px;
 }
 
+.s1 div {
+  background-attachment: fixed;
+  background-image: url('../images/hamburguer-tela-inicial-mobile-1000x1333.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  height: 600px;
+  position: relative;
+}
+
 .s1 img {
   display: block;
   height: 600px;
@@ -50,22 +62,19 @@
   width: 100%;
 }
 
-.s1 a {
-  text-decoration: none;
-}
-
 .promo-button {
   background-color: rgba(0, 0, 0, .7);
   border-radius: 5px;
+  bottom: 5px;
   color: white;
   display: block;
   font-family: 'Berkshire Swash', cursive;
   font-size: 30px;
   margin: 0 auto;
   padding: 10px 0;
-  position: relative;
+  position: absolute;
   text-align: center;
-  top: -80px;
+  text-decoration: none;
   width: 90%;
 }
 
@@ -74,6 +83,7 @@
 }
 
 .s1 aside {
+  font-family: 'Roboto Condensed', sans-serif;
   margin: 50px 0;
   width: 100%;
 }
@@ -94,6 +104,7 @@
 
 /* Início seção 02 */
 .s2 {
+  font-family: 'Roboto Condensed', sans-serif;
   margin: 1px 0;
   padding: 0 10px;
 }
@@ -127,6 +138,7 @@
 
 /* Início seção 3 */
 .s3 {
+  font-family: 'Roboto Condensed', sans-serif;
   padding: 1px;
   text-align: center;
 }
@@ -176,6 +188,7 @@
 
 /* Início seção 04 */
 .s4 {
+  font-family: 'Roboto Condensed', sans-serif;
   margin: 300px 0 0 0;
   padding: 1px;
   text-align: justify;
@@ -193,6 +206,7 @@
 
 /* Início seção 05 */
 .s5 {
+  font-family: 'Roboto Condensed', sans-serif;
   text-align: center;
 }
 
@@ -206,17 +220,15 @@
 footer {
   background-color: rgba(0, 0, 0, .9);
   color: white;
+  font-family: 'Roboto Condensed', sans-serif;
   padding: 50px 10px;
   text-align: center;
 }
 /* Fim rodapé */
 
-@media only screen and (min-width: 850px) {
+@media only screen and (min-width: 700px) {
   .cabecalho {
     padding: 20px;
-  }
-  .promo-button {
-    display: none;
   }
 
   .s1 {
@@ -224,12 +236,38 @@ footer {
     justify-content: space-between;
   }
 
-  .s1 picture {
+  .s1 div {
+    background-attachment: fixed;
+    background-image: url('../images/hamburguer-tela-inicial-desktop-1200x800.jpg');
+    background-position: top left;
+    background-repeat: no-repeat;
+    background-size: 50% 70%;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    height: 600px;
+    position: relative;
     width: 49.5%;
   }
-  
-  .s1 picture img {
-    border-radius: 10px;
+
+  .promo-button {
+    display: none;
+  }
+
+  .contact-button {
+    background-color: rgba(0, 0, 0, .7);
+    border-radius: 5px;
+    bottom: 10px;
+    color: white;
+    display: block;
+    font-family: 'Berkshire Swash', cursive;
+    font-size: 30px;
+    margin: 0 auto;
+    padding: 10px 0;
+    position: absolute;
+    text-align: center;
+    text-decoration: none;
+    width: 90%;
   }
 
   .s1 aside {
@@ -238,21 +276,6 @@ footer {
 
   .s1 aside h1 {
     margin: 0;
-  }
-
-  .contact-button {
-    background-color: rgba(0, 0, 0, .7);
-    border-radius: 5px;
-    color: white;
-    display: block;
-    font-family: 'Berkshire Swash', cursive;
-    font-size: 30px;
-    margin: 0 auto;
-    padding: 10px 0;
-    position: relative;
-    text-align: center;
-    top: -80px;
-    width: 90%;
   }
 
   .s2 div {
