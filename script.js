@@ -4,7 +4,7 @@ const IMG_PROMO_DIA = document.querySelector('.s1 aside img');
 
 const DATE = new Date();
 
-let DAY_WEEK = DATE.getDay();
+const DAY_WEEK = DATE.getDay();
 
 switch(DAY_WEEK) {
   case 0:
@@ -20,20 +20,20 @@ switch(DAY_WEEK) {
     IMG_PROMO_DIA.src = './images/promo-quarta.jpg';
     break;
   case 3:
-    TITULO_PROMO_DIA.innerHTML = 'Promoção de quarta';
+    TITULO_PROMO_DIA.innerHTML = 'Promoção / Combo do dia:<br /> Batata - Coca 1L - Hambúrguer';
     IMG_PROMO_DIA.src = './images/promo-quarta.jpg';
     break;
   case 4:
-    TITULO_PROMO_DIA.innerHTML = 'Promoção de quinta';
+    TITULO_PROMO_DIA.innerHTML = 'Prensadão no <br /><del>suvaco</del> capricho<br /> Por apenas R$ 10.00';
     IMG_PROMO_DIA.src = './images/promo-quinta.png';
     IMG_PROMO_DIA.style.height = '250px';
-    IMG_PROMO_DIA.style.margin = '200px auto 0 auto';
+    IMG_PROMO_DIA.style.margin = '150px auto 0 auto';
     break;
   case 5:
-    TITULO_PROMO_DIA.innerHTML = 'Promoção de sexta';
+    TITULO_PROMO_DIA.innerHTML = '3 hambúrgueres de <del>R$ 25,00</del><br /> Por apenas R$ 15,00';
     IMG_PROMO_DIA.src = './images/promo-sexta.png';
     IMG_PROMO_DIA.style.height = '250px';
-    IMG_PROMO_DIA.style.margin = '200px auto 0 auto';
+    IMG_PROMO_DIA.style.margin = '150px auto 0 auto';
     break;
   case 6:
     TITULO_PROMO_DIA.innerHTML = 'Promoção de sabado';
