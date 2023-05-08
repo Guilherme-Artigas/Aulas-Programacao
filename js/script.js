@@ -1,6 +1,8 @@
-const TITULO_PROMO_DIA = document.querySelector('h1#promo-do-dia');
+// const elementSelector = (element) => window.document.querySelector(element);
 
-const IMG_PROMO_DIA = document.querySelector('.s1 aside img');
+const TITULO_PROMO_DIA = window.document.querySelector('h1#promo-do-dia');
+
+const IMG_PROMO_DIA = window.document.querySelector('.s1 aside img');
 
 const DATE = new Date();
 
